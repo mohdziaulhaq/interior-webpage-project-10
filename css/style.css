@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../images/interior.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    font-family: "Poppins";
+}
+
+.logo{
+    line-height: 30px;
+}
+
+.nav-end{
+    display: flex;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #fff;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.list-item{
+    font-size: 20px;
+}
+
+.contact{
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin-left: 75px;
+    margin-top: -10px;
+}
+
+.contact p span{
+    font-weight: 600;
+}
+
+.contact img{
+    width: 75px;
+    margin-top: 6px;
+}
+
+main{
+    display: flex;
+    font-family: "Poppins";
+}
+
+.main-text{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 3rem 3rem;
+    width: 700px;
+}
+
+.learn-more-btn{
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 1rem 2rem;
+    border-radius: 35px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+
+}
+.card-innovation{
+    position: absolute; 
+    top: 386px;
+    right: 400px;
+}
+
+.card-puzzle{
+    position: absolute;
+    right: 120px;
+}
+
+
+.card-left{
+    background: rgb(48,69,86);
+    padding: 1rem 1rem;
+    width: 200px;
+}
+
+
+
+.img-container{
+    background: #fff;
+    padding: 0px 10px;
+    width: 60px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.card-left img{
+    width: 35px;
+    margin-top: 3px;
+}
+
+.card-left p{
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.card-puzzle .card-left img{
+    width: 30px;
+}
+
+.card-right .line{
+    width: 900px;
+}
+
+.card-puzzle .card-right{
+    position: absolute;
+    top: 136px;
+    right: 30px;
+    transform: rotate(90deg);
+}
+
