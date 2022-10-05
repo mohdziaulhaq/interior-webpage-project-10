@@ -140,3 +140,103 @@ main{
     transform: rotate(90deg);
 }
 
+@media screen and (max-width: 1200px) {
+    .heading{
+        font-size: 3rem;
+    }
+
+    .learn-more-btn{
+        font-size: 16px;
+    }
+    
+    .list-item{
+        font-size: 16px;
+    }
+
+    .logo{
+        font-size: 14px;
+    }
+
+    .contact p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        margin-bottom: 20px;
+    }
+    .nav-end{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .list-item{
+        margin:0 1em;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        height: 140vh;
+        width: 100vw;
+    }
+    .card-innovation{
+        position: absolute; 
+        top: 696px;
+        right: 400px;
+    }
+    .card-puzzle{
+        position: absolute;
+        top: 536px;
+        right: 110px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    body{
+        height: 180vh;
+        width: 100vw;
+    }
+
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading{
+        font-size: 2rem;
+    }
+    .learn-more-btn{
+        font-size: 10px;
+    }
+    .card-innovation{
+        position: absolute; 
+        top: 796px;
+        right: 150px;
+    }
+    .card-puzzle{
+        position: absolute;
+        top: 996px;
+        right: 220px;
+    }
+}    
